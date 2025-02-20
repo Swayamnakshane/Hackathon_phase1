@@ -51,7 +51,8 @@ github: "https://hub.docker.com/u/swayamnakshane"
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![Screenshot 2025-02-20 234624](https://github.com/user-attachments/assets/01c6954b-5d20-4537-9640-42dd0a5b7223)
-![Screenshot 2025-02-20 234711](https://github.com/user-attachments/assets/2edafbe1-2dd7-43a6-8827-97c367ee4b42)
+
+![Screenshot 2025-02-20 234647](https://github.com/user-attachments/assets/810e3aba-bd4d-47a7-96f4-b216adb588be)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ![Screenshot 2025-02-20 234711](https://github.com/user-attachments/assets/1f396b09-3057-4c4c-9ca6-d67875ad4dec)
