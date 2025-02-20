@@ -186,15 +186,6 @@ This project is licensed under the MIT License. See the [MIT](LICENSE) file for 
 
 ---
 
-## Contact
-
-For any questions or further information, please contact:
-
-- **Email:** [iemafzalhassan@gmail.com](mailto:iemafzalhassan@gmail.com) , [amitabhdevops2024@gmail.com](mailto:iemafzalhassan@gmail.com) , [deveshagent@gmail.com](mailto:deveshagent@gmail.com)
-- [Join Discord Server](https://discord.gg/4JtuMhMcjn)
-
----
-
 Good luck for the hackathon
 
 Happy Learning :)
