@@ -1,13 +1,15 @@
 #FIRST CLONE THE REPOSITORY TO THE SYSTEM 
-
+Fork the repository to your github then clone it to you system using the command
 1: git CLONE
 
 #CREATE A BRANCH IN LIKE FEATURE BRANCH
-
+always understand the concept of branching never make any change on main/master branch make a new branch using the command
 2: git checkout -b "branch-name"
 
 --------------------------------------------------------------------------------------------------------------------------------
 #docker file 
+will requird the image tu run over container thus will make a docker file you can use docker init but the best practice is using the dockerfile
+
 
 from node:18
 workdir /app
@@ -16,24 +18,44 @@ run npm install
 expose 5173
 cmd ["npm","run","dev"]
 
+
+After creating the dockerfile build a image using the command 
 #build a image 
 
 3: docker build -t "name-of-image" .
 
 -------------------------------------------------------------------------------------------------------------------------------------
 #containertization
+image is craeted must check using docker images command for command you can use docker --help now make a conatiner using a command
 
 docker run -d --name "container-name" -p 5173:5173 image-name:latest
 
+to check container use 
+docker ps ,docker ps -a if container gets fail
+
+docker stop "container_id" && docker rm "conatiner_id" is used to remove non useable conatiner 
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 #docker compose.yml
-
+make sure your docker compose is downaload 
+to download sudo apt-get install docker-compose-v2
 version: "3.8"
 services:
     name:
       image: 
       container-name:
       ports:
+
+always check you compose file using 
+docker compose config
+to check error
+docker log "id"
+to run compose file
+docker compose up
+to stop or rm conatiner
+docker compose down
+docker system prune
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 #you can successfully deploy your website at port no 5173
